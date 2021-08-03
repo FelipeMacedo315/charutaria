@@ -1,0 +1,69 @@
+
+//classe que organiza todos os produtos na pagina Home.
+.home_agrupar_produtos{
+ 
+ display: grid;
+ grid-template-columns: 20% 20% 20% 20%;
+ grid-column-gap: 5%;
+justify-content: center;
+grid-row-gap: 10%;
+height: auto;
+
+}
+//classe que organiza os elementos que estão dentro de cada card de produto.
+.cada-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+//estilizado o input de numero dos componentes de produtos.
+input[type='number']{
+width: 20%;
+
+}
+//img que esta no componente footer.
+#img-background-footer{
+    height: 25vh;
+    width: 100%;
+}
+//classe que organiza os elementos na pagina de compra.
+.pagina_compra_agruparTudo{
+display: grid;
+grid-template-columns: auto;
+row-gap: 10vh;
+  
+   
+}
+//id que organiza todos os elementos da pagina Home.
+#agrupar_todos_elementos_home{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 20vh;
+
+}
+.organizar_produto{
+ display: flex;
+ margin-left: 10%;
+ align-items: flex-start;
+flex-direction: column;
+
+   
+}
+.titulo{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+left: 50%;
+  h2{
+      font-family: cursive
+  }
+  p{
+      font-family: cursive;
+  }
+
+
+}

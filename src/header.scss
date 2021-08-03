@@ -1,0 +1,37 @@
+
+@import '_parte2.scss';
+
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.estilo-header{
+  margin: 0%;
+  padding: 0%;
+ 
+
+  #img-background-header{
+ height: 25vh;
+   width: 100%;
+    }
+  button{
+    background-color: black;
+    color: gold;
+    height: 5vh;
+    font-size: 2vh;
+
+  }
+  form{
+    margin-left: 30%;
+   
+  }
+  input{
+    width: 50%;
+    height: 4vh;
+    font-family: cursive;
+    font-size: 2vh;
+  }
+}
+

@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
       
         <div className='cada-produto'>
     <img src='/imagens\charuto-bolivar-belicoso-fino.jpg'/>
-    <h5>Charuto Cubano </h5>
+    <h2>Charuto Vegafina Vintage 1998 42 </h2>
     <p>R$ {charuto1}</p>
     <input type='number' min='0'/>
  
@@ -43,7 +43,7 @@ import { Link } from 'react-router-dom'
     return(
         <div className='cada-produto'>
     <img src='/imagens\charuto-bolivar.jpg'/>
-    <h2>Charuto Perceverancia Serie Artesano Gran Habano </h2>
+    <h2>Charuto Perceverancia Premium Gran Figurado </h2>
     <p>R$ {charuto3}</p>
     <input type='number' min='0'/>
   
@@ -57,7 +57,7 @@ import { Link } from 'react-router-dom'
     return(
         <div className='cada-produto'>
     <img src='/imagens\charuto-cohiba.jpg'/>
-   <h2>Charuto Cubano Romeu Y Julieta N2</h2>
+   <h2>Charuto Romeu e Julieta Petit Churchill</h2>
     <p>R$ {charuto4}</p>
     <input type='number' min='0'/>
   
@@ -70,7 +70,7 @@ export function Produto5 (){
     return(
         <div className='cada-produto'>
     <img src='/imagens\charuto-coronitas.jpg'/>
-    <h2>Charuto Alonso Menendez Connecticut</h2>
+    <h2>Charuto Alonso Menendez Del Patron Gran Corona</h2>
     <p>R$ {charuto5}</p>
     <input type='number' min='0'/>
   
@@ -83,7 +83,7 @@ export function Produto6 (){
     return(
         <div className='cada-produto'>
     <img src='/imagens\charuto-don-diego.jpg'/>
-    <h2>Charuto Monte Pascoal Robusto</h2>
+    <h2>Charuto Monte Pascoal Short Robusto</h2>
     <p>R$ {charuto6}</p>
     <input type='number' min='0'/>
  
@@ -109,7 +109,7 @@ export function Produto8 (){
     return(
         <div className='cada-produto'>
     <img src='/imagens\charuto-mille-feur.jpg'/>
-    <h2>Charuto Guarantamo </h2>
+    <h2>Charuto Los 3 Catedraticos Magnífico Maduro (Canonazo)</h2>
     <p>R$ {charuto8}</p>
     <input type='number' min='0'/>
     

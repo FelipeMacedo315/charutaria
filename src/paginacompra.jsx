@@ -6,17 +6,35 @@ import { Buttoncomprar } from './globalestilos'
 export function Paginacompra1() {
 
     return(
-        <div className='pagina_compra_agrupar'>
-            <Header></Header>
-            <div className='organizar_elementos_paginacompra'>
-            <Produto1></Produto1>
-            <Buttoncomprar cor='red' largura={'30%'} >Comprar</Buttoncomprar>
-            </div>
-           
-            <Footer></Footer>
+      <>
+      <Header></Header>
+
+  <div className='agrupar_produto_e_descriçao'>
+    
+      <div className='organizar_produto'>
+        <Produto1> </Produto1>
+        <Buttoncomprar cor={'red'} largura={'150%'}>Comprar</Buttoncomprar>
+      </div>
+
+       <div className='organizar_descriçao'>
+        <h2>Charuto Vegafina Vintage 1998 42 </h2>
+        <p>VegaFina apresenta o "Vintage 1", a primeira edição limitada da linha premium Vegafina 
+          1998.<br/> Este charuto feito com folhas de tabaco envelhecidas por um período mínimo de 3 
+          anos, <br/>conferindo ao charuto um caráter único e equilibrado, um aroma intenso e um sabor 
+          rico e matizado.
+          <br/>
+          <br/>
+          <strong>Escala de Força :</strong> Médio <br/>
+          <strong>Bitola:</strong> 1,87x 16,7MM
+        </p>
+       </div>
 
 
-        </div>
+  </div>
+      
+
+      <Footer></Footer>
+</>
     )
     
 }
@@ -24,41 +42,39 @@ export function Paginacompra1() {
 export function Paginacompra2() {
 
     return(
-        <div className='pagina_compra_agruparTudo'>
+  <>
         <Header></Header>
+
+    <div className='agrupar_produto_e_descriçao'>
+
+        <div className='organizar_produto'>
+          <Produto2> </Produto2>
+          <Buttoncomprar cor={'red'} largura={'150%'}>Comprar</Buttoncomprar>
+        </div>
+
+         <div className='organizar_descriçao'>
+         <h2>Charuto Perceverancia Serie Artesano Gran Habano 60 </h2>
+          <p>Visando proporcionar uma experiência ampla no mundo dos charutos, a marca PERCEVERANCIA
+              se alia a grandes marcas de renome mundial com nacionalidades diversas, para lançar a
+              linha SERIE ARTESANO. Nesta primeira edição em parceria com a Tabacaria RICO CIGARS 
+              GRAN HABANO de Honduras, lança edição Perceverancia Gran Habano, um delicioso charuto 
+              feito com blend de tabacos criollo e corojo com uma mescla equilibrada visando 
+              suavidade sem perder sua complexidade e uma linda capa Habano de tonalidade oliva 
+              clara.
+              <br/>
+              <br/>
+              <br/>
+              <strong>Escala de Força :</strong> Médio <br/>
+              <strong>Bitola:</strong> 1,80x 23,8MM
+          </p>
+         </div>
+
+
+    </div>
         
-       
-<div className='organizar_produto'>
-        <Produto3></Produto3>
-        <Buttoncomprar cor='red' largura={'30%'} >Comprar</Buttoncomprar>
-      <div className='titulo'>
-        <h2>Charuto Perceverancia Serie Artesano Gran Habano 60 </h2>
 
-        <p>Visando proporcionar uma experiência ampla no mundo dos charutos, a marca PERCEVERANCIA
-           se alia a grandes marcas de renome mundial com nacionalidades diversas, para lançar a 
-           linha SERIE ARTESANO. Nesta primeira edição em parceria com a Tabacaria RICO CIGARS 
-           GRAN HABANO de Honduras, lança edição Perceverancia Gran Habano, um delicioso charuto
-           feito com blend de tabacos criollo e corojo com uma mescla equilibrada visando suavidade 
-           sem perder sua complexidade e uma linda capa Habano de tonalidade oliva clara.
-          
-         <br/>
-
-         <br/>
-
-     <strong>Escala de Forca:</strong> Médio<br/>
-     
-       <strong>Bitola:</strong>180mm x 23,8mm
-        
-         </p>
-
-    
-     </div>
-
- </div> 
- 
-  <Footer></Footer>
-      
-</div>
+        <Footer></Footer>
+  </>
     )
     
 }
@@ -66,40 +82,36 @@ export function Paginacompra2() {
 export function Paginacompra3() {
 
     return(
-        <div className='pagina_compra_agruparTudo'>
-        <Header></Header>
-        
-       
-<div className='organizar_produto'>
-        <Produto3></Produto3>
-        <Buttoncomprar cor='red' largura={'30%'} >Comprar</Buttoncomprar>
-      <div className='titulo'>
-        <h2>Charuto Don Diego Aniversario Toro </h2>
+      <>
+      <Header></Header>
 
-        <p>Don Diego Aniversario, um charuto especial criado para comemorar o 40º aniversário da
-           marca. Feito à mão na famosa Tabacalera de García, os charutos Don Diego Aniversario 
-           possuem um blend único de tabacos encorpados, envelhecidos por 3 anos. Feitos na Repúbli
-           ca Dominicana com capa Sumatra do Equador e um blend de tabacos dominicano, peruano e ni
-           caraguense. Equilibrado, rico no paladar e com um toque de doçura que emociona o paladar,
-            Don Diego Aniversario é a opção perfeita para marcar ocasiões especiais.
-          
-       
+  <div className='agrupar_produto_e_descriçao'>
     
-         <br/>
-         <br/>
-     <strong>Escala de Forca:</strong>Médio a Forte<br/>
-       <strong>Bitola:</strong>152mm x 22mm
-        
-         </p>
+      <div className='organizar_produto'>
+        <Produto3> </Produto3>
+        <Buttoncomprar cor={'red'} largura={'150%'}>Comprar</Buttoncomprar>
+      </div>
 
-    
-     </div>
+       <div className='organizar_descriçao'>
+       <h2>Charuto Perceverancia Premium Gran Figurado </h2>
+        <p>DescriçãoApresentada em caixas de cedro maciço e com novas anilhas, 
+           tudo isso coberto por uma bela capa bordada conferindo uma maior proteção
+           ao produto.
+           <br/>
+           <br/>
+           <br/>
+           <strong>Escala de Força :</strong> Suave <br/>
+              <strong>Bitola:</strong> 1,80mm x 22mm
 
- </div> 
- 
-  <Footer></Footer>
+        </p>
+       </div>
+
+
+  </div>
       
-</div>
+
+      <Footer></Footer>
+</>
     )
     
 }
@@ -107,35 +119,43 @@ export function Paginacompra3() {
 export function Paginacompra4() {
 
     return(
-        <div className='pagina_compra_agruparTudo'>
-        <Header></Header>
-        
-       
-<div className='organizar_produto'>
-        <Produto4></Produto4>
-        <Buttoncomprar cor='red' largura={'30%'} >Comprar</Buttoncomprar>
-      <div className='titulo'>
-        <h2>Charuto Cubano Romeu Y Julieta N2</h2>
+      <>
+      <Header></Header>
 
-        <p>Fundada por Alvarez y Garcia em 1875, Romeo y Julieta teve sua própria fabrica a partir de 1903,
-        quando foi comprada por “Pepino”, Fernandez Rodriguez. Romeo y Julieta é hoje a mais conhecida
-         e apreciada marca de charutos do mundo.
-        Romeu e Julieta continua a ser um charuto de qualidade trabalhada com os sabores frutados. 
-         <br/>
-         <br/>
-          Comprimento: 140mm<br/>
-         Diâmetro: 16mm <br/>
-         Sabor: Médio <br/>
-         </p>
-
+  <div className='agrupar_produto_e_descriçao'>
     
-     </div>
+      <div className='organizar_produto'>
+        <Produto4> </Produto4>
+        <Buttoncomprar cor={'red'} largura={'150%'}>Comprar</Buttoncomprar>
+      </div>
 
- </div> 
- 
-  <Footer></Footer>
+       <div className='organizar_descriçao'>
+       <h2>Charuto Romeu e Julieta Petit Churchill</h2>
+        <p>O Romeu e Julieta Petit Churchill é a versão menor do charuto de Churchill. Devido ao 
+          seu tamanho, é o charuto ideal para fumar quando você está um pouco tempo.
+           Este excelente charuto cubano fornece uma fumaça de força média com bastante couro e 
+           notas terrosas por toda parte - com um acabamento delicioso e doce, composto por mel, 
+           baunilha e café.Uma das marcas mais conhecidas do Portfolio da Habanos. 
+           Charutos totalmente feitos à mão com o tabaco de Vuelta Abajo, a melhor região produto 
+           de tabaco do mundo. São charutos feitos com blends de Força Suave a Médio, que encantam
+            pela riqueza dos sabores e pela quantidade de aromas secundários como ervas, 
+            especiarias, etc. Em seu vitolário há grandes charutos como o clássico Churchill, 
+            eternizado pelo primeiro ministro Winston Churchill e o famoso Wide Churchill, que 
+            inaugura os charutos de bitola extra grossa.
+            <br/>
+           <br/>
+           <br/>
+           <strong>Escala de Força :</strong> Suave e Médio <br/>
+              <strong>Bitola:</strong> 102mm x 19,84mm
+        </p>
+       </div>
+
+
+  </div>
       
-</div>
+
+      <Footer></Footer>
+</>
     )
     
 }
@@ -143,31 +163,39 @@ export function Paginacompra4() {
 export function Paginacompra5() {
 
     return(
-        <div className='pagina_compra_agruparTudo'>
-        <Header></Header>
-        
-       
-<div className='organizar_produto'>
-        <Produto5></Produto5>
-        <Buttoncomprar cor='red' largura={'30%'} >Comprar</Buttoncomprar>
-      <div className='titulo'>
-        <h2>Charuto Alonso Menendez Connecticut</h2>
-        <p>Os charutos produzidos pela Menedez e Amerino concentram-se em dois tipos de tabaco, 
-            utilizados em diferentes proporções, conforme o aroma e o tabaco desejado: o Mata 
-            Norte cultivado no município de Coração de Maria, forte, doce e rico em óles essenciais 
-            e o Mata Fina, com origem em Cruz das Almas, leve e aromático, utilizado para 
-            capeamento e folhas de acabamento, por ser escuro é substituído em alguns produtos
-             pelo americano Connecticut de cor marrom amarelado.
-            
-        </p>
-    
-     </div>
+      <>
+      <Header></Header>
 
- </div> 
- 
-  <Footer></Footer>
+  <div className='agrupar_produto_e_descriçao'>
+    
+      <div className='organizar_produto'>
+        <Produto5> </Produto5>
+        <Buttoncomprar cor={'red'} largura={'150%'}>Comprar</Buttoncomprar>
+      </div>
+
+       <div className='organizar_descriçao'>
+       <h2>Charuto Alonso Menendez Del Patron Gran Corona</h2>
+        <p>No Festival Origens 2019, a Menendez Amerino realizou o lançamento dos seus mais novos
+           produtos: os charutos Del Patron Gran Corona e Dona Flor Gran Corona Graduado.
+            As duas novidades são consideradas um marco pela qualidade e potencial de 
+            competitividade  no mercado internacional.
+           “São charutos encorpados, o que confere mais potência e muito mais intensidade, mas cada um com 
+           suas características. Então, são produtos aprimorados e feitos cuidadosamente para ganhar
+           o mundo”, contou Rogério Ferraz, gerente comercial da Menendez Amerino.
+           <br/>
+           <br/>
+           <br/>
+           <strong>Escala de Força :</strong> Médio a Forte <br/>
+           <strong>Bitola:</strong> 150mm x 24mm
+        </p>
+       </div>
+
+
+  </div>
       
-</div>
+
+      <Footer></Footer>
+</>
     )
     
 }
@@ -175,30 +203,34 @@ export function Paginacompra5() {
 export function Paginacompra6() {
 
     return(
-        <div className='pagina_compra_agruparTudo'>
-        <Header></Header>
-        
-       
-<div className='organizar_produto'>
-        <Produto6></Produto6>
-        <Buttoncomprar cor='red' largura={'30%'} >Comprar</Buttoncomprar>
-      <div className='titulo'>
-      <h2>Charuto Monte Pasqual </h2>
-        <p>Cada charuto da linha se apresenta com um blend cuidosamente balanceado ao seu
-             formato e bitola, proporcionando uma experiência única a cada baforada.
-        
-        <br/>
-        Medidas: 12,4 cm x 1,98 cm 
-        </p>
-        
-      
-     </div>
+      <>
+      <Header></Header>
 
- </div> 
- 
-  <Footer></Footer>
+  <div className='agrupar_produto_e_descriçao'>
+    
+      <div className='organizar_produto'>
+        <Produto6> </Produto6>
+        <Buttoncomprar cor={'red'} largura={'150%'}>Comprar</Buttoncomprar>
+      </div>
+
+       <div className='organizar_descriçao'>
+       <h2>Charuto Monte Pascoal Short Robusto</h2>
+        <p>Todo o sabor do tabaco baiano da Monte Pascoal numa versão mais simples, de fumo picado,
+           mas muito saborosa, feita para o dia-a-dia.
+           <br/>
+           <br/>
+           <br/>
+           <strong>Escala de Força :</strong> Suave<br/>
+           <strong>Bitola:</strong> 122mm x 18mm
+        </p>
+       </div>
+
+
+  </div>
       
-</div>
+
+      <Footer></Footer>
+</>
     )
     
 }
@@ -206,29 +238,39 @@ export function Paginacompra6() {
 export function Paginacompra7() {
 
     return(
-        <div className='pagina_compra_agruparTudo'>
-        <Header></Header>
-        
-       
-<div className='organizar_produto'>
-        <Produto7></Produto7>
-        <Buttoncomprar cor='red' largura={'30%'} >Comprar</Buttoncomprar>
-      <div className='titulo'>
-        <h2>Charuto Dona Flor Seleção Robusto</h2>
-        <p>O Dona Flor foi inspirado na principal personagem do livro “Dona Flor e seus Dois Maridos”
-            , uma homenagem do presidente da Menendez Amerino e Cia ao amigo e escritor baiano Jorge 
-            Amado. Dona Flor pertence a linha de Charutos Premium, feito a mão de pura folha de fumo;
-             é fruto de uma rigorosa seleção de fumos procedentes do Recôncavo Baiano, resultando um 
-             produto de excepcional qualidade com caráter aromático muito apreciado pelos fumantes
-             europeus.
-        </p>
-     </div>
+      <>
+      <Header></Header>
 
- </div> 
- 
-  <Footer></Footer>
+  <div className='agrupar_produto_e_descriçao'>
+    
+      <div className='organizar_produto'>
+        <Produto7> </Produto7>
+        <Buttoncomprar cor={'red'} largura={'150%'}>Comprar</Buttoncomprar>
+      </div>
+
+       <div className='organizar_descriçao'>
+       <h2>Charuto Dona Flor Seleção Robusto</h2>
+        <p> Este é o charuto brasileiro mais vendido de todos os tempos. Um robusto suave, 
+          com notas terrosas e uma leve pimenta no retrogosto. Muito agradável. Este charuto
+          chegou a receber 92 pontos na famosa revista americana Cigar Aficionado, o que eu acho
+          bem merecido. Recomendo a todos. Forte abraço. Provavelmente o charuto nacional mais 
+          conhecido em todo o mundo. Charutos feitos a mão com com o melhor do tabaco Mata Fina do
+          Recôncavo Baiano. Charutos com sabor suave e retrogostos exóticos com nuances que podem
+          apresentar pimenta, canela e especiarias. Aromas secundários herbais e retrogosto muito agradável.
+           <br/>
+           <br/>
+           <br/>
+           <strong>Escala de Força :</strong> Suave<br/>
+           <strong>Bitola:</strong> 127mm x 20mm
+        </p>
+       </div>
+
+
+  </div>
       
-</div>
+
+      <Footer></Footer>
+</>
     )
     
 }
@@ -237,35 +279,37 @@ export function Paginacompra8() {
 
     return(
     
-<div className='pagina_compra_agruparTudo'>
-            <Header></Header>
-            
-           
-    <div className='organizar_produto'>
-            <Produto8></Produto8>
-            <Buttoncomprar cor='red' largura={'30%'} >Comprar</Buttoncomprar>
-          <div className='titulo'>
-            <h2>Charuto Guarantamo</h2>
-            <p>Guantanamera é o nome da famosa canção escrita e popularizada pelo cantor e compositor cubano Joseito Fernandez em 1928. 
-               Esta canção se tornou um sucesso internacional nos anos 60, fazendo parte da imagem de Cuba no mundo.
-            
-               Em 2002, a marca foi apresentada a mercados internacionais.Seus charutos são feitos com fumo de Vuelta Arriba, a segunda maior região produtora da Ilha.
-               Todos os tamanhos a sua produção são usinadas e fabricados em modernas instalações de produção recentemente criadas em Havana.
-               Os Charutos Guantanamera têm um suave sabor e preço acessível, sendo a menor marca da Habanos.<br/> 
-               <br/>
-               
-               Comprimento: 150mm <br/>
-               Diâmetro: 16,7mm <br/>
-               Formato: Corona <br/>
-                Sabor: Suave
-            </p>
-         </div>
+      <>
+      <Header></Header>
 
-     </div> 
+  <div className='agrupar_produto_e_descriçao'>
+    
+      <div className='organizar_produto'>
+        <Produto8> </Produto8>
+        <Buttoncomprar cor={'red'} largura={'150%'}>Comprar</Buttoncomprar>
+      </div>
+
+       <div className='organizar_descriçao'>
+       <h2>Charuto Los 3 Catedraticos Magnífico Maduro (Canonazo)</h2>
+        <p>Mais um lançamento da fábrica Los 3 Catedráticos. Um blend de tabacos de Esteli e 
+          Condega maturados por 3 anos e uma linda capa Habano Maduro, o que adiciona a esta 
+          mistura uma leve doçura no aroma. O charuto se inicia equilibrado e vai ganhando força
+           no decorrer da degustação, terminando com profusão de sabores e notas aromáticas como
+           melado e especiarias. Uma verdadeira festa de aromas e sabores.
+           <br/>
+           <br/>
+           <br/>
+           <strong>Escala de Força :</strong> Medio Forte<br/>
+           <strong>Bitola:</strong> 150mm x 21mm
+        </p>
+       </div>
+
+
+  </div>
+      
 
       <Footer></Footer>
-          
-</div>
+</>
         
     )
     

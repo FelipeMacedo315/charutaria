@@ -7,7 +7,8 @@
  grid-column-gap: 5%;
 justify-content: center;
 grid-row-gap: 10%;
-height: auto;
+align-items: center;
+
 
 }
 //classe que organiza os elementos que estão dentro de cada card de produto.
@@ -16,6 +17,8 @@ height: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+ 
+    height: 55vh;
     
 }
 
@@ -29,14 +32,8 @@ width: 20%;
     height: 25vh;
     width: 100%;
 }
-//classe que organiza os elementos na pagina de compra.
-.pagina_compra_agruparTudo{
-display: grid;
-grid-template-columns: auto;
-row-gap: 10vh;
-  
-   
-}
+
+
 //id que organiza todos os elementos da pagina Home.
 #agrupar_todos_elementos_home{
     display: grid;
@@ -45,25 +42,37 @@ row-gap: 10vh;
 
 }
 .organizar_produto{
- display: flex;
- margin-left: 10%;
- align-items: flex-start;
-flex-direction: column;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   width: 30%;
    
 }
-.titulo{
-display: flex;
-flex-direction: column;
-align-items: center;
-position: absolute;
-left: 50%;
-  h2{
-      font-family: cursive
-  }
-  p{
-      font-family: cursive;
-  }
 
 
+.organizar_descriçao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    h2{
+       font-family: cursive;
+    }
+    p{
+        font-family: cursive;
+    }
+   
 }
+.agrupar_produto_e_descriçao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+}
+

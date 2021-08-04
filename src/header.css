@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .home_agrupar_produtos {
   display: -ms-grid;
   display: grid;
@@ -8,7 +9,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   grid-row-gap: 10%;
-  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cada-produto {
@@ -25,6 +28,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 55vh;
 }
 
 input[type='number'] {
@@ -34,14 +38,6 @@ input[type='number'] {
 #img-background-footer {
   height: 25vh;
   width: 100%;
-}
-
-.pagina_compra_agruparTudo {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
-  row-gap: 10vh;
 }
 
 #agrupar_todos_elementos_home {
@@ -56,37 +52,57 @@ input[type='number'] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 10%;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.titulo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  left: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
 }
 
-.titulo h2 {
+.organizar_descriçao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 30%;
+}
+
+.organizar_descriçao h2 {
   font-family: cursive;
 }
 
-.titulo p {
+.organizar_descriçao p {
   font-family: cursive;
+}
+
+.agrupar_produto_e_descriçao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 body {

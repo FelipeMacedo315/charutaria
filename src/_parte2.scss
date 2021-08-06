@@ -17,14 +17,22 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
- 
-    height: 55vh;
-    
+    height: 60vh;
+  border: hidden ;
+  box-sizing: border-box;
+ padding-left: 1%;
+  &:hover{
+     
+      border: solid 1px;
+  }
+   
 }
 
 //estilizado o input de numero dos componentes de produtos.
 input[type='number']{
 width: 20%;
+margin-bottom: 10%;
+
 
 }
 //img que esta no componente footer.
@@ -39,6 +47,7 @@ width: 20%;
     display: grid;
     grid-template-columns: auto;
     grid-row-gap: 20vh;
+  
 
 }
 .organizar_produto{
@@ -75,4 +84,11 @@ width: 20%;
     padding-bottom: 10vh;
     
 }
-
+.imgproduto{
+    width: 80%;
+   
+}
+.preço{
+    color: red;
+    font-size: 200%;
+}

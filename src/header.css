@@ -28,11 +28,20 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 55vh;
+  height: 60vh;
+  border: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 1%;
+}
+
+.cada-produto:hover {
+  border: solid 1px;
 }
 
 input[type='number'] {
   width: 20%;
+  margin-bottom: 10%;
 }
 
 #img-background-footer {
@@ -103,6 +112,15 @@ input[type='number'] {
       justify-content: space-around;
   padding-top: 10vh;
   padding-bottom: 10vh;
+}
+
+.imgproduto {
+  width: 80%;
+}
+
+.preço {
+  color: red;
+  font-size: 200%;
 }
 
 body {
